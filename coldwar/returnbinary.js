@@ -28,4 +28,17 @@ const addBinary = (a,b) => {
     //  console.log(`this is new, ${newString}`)
  }
     }
-  console.log(addBinary(266,368))
+  console.log(addBinary(266,368)) 
+
+//another way to do it 
+
+// const addBinary = (a,b) =>  {
+//     var c = a + b;
+//     var res = '';
+//     while (c >= 1) {
+//       var res = c % 2 + res;
+//       c = Math.floor(c / 2);
+//     }
+//     console.log(typeof res)
+//     console.log(res)
+//   }
