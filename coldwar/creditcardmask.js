@@ -21,7 +21,7 @@ const maskify = (cc) => {
             newArr.push('#');
             return newArr
         });
-        finalArr = newArr.join('')
+        finalArr = newArr.concat(shownNum).join('')
         return finalArr
     }
 }
