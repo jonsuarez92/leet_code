@@ -9,15 +9,15 @@ answer[i] == i (as a string) if none of the above conditions are true.
 const fizzBuzz = (n) => {
     let arr = []
     for (let i = 1; i <= n; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
+        if (i % 3 == 0 && i % 5 == 0) {
             arr.push('FizzBuzz')
-        } else if (i % 3 === 0) {
+        } else if (i % 3 == 0) {
             arr.push('Fizz')
-        } else if (i % 5 === 0) {
+        } else if (i % 5 == 0) {
             arr.push('Buzz')
         } else {
             arr.push(i.toString())
         }
     } return arr;
 };
-console.log(`${fizzBuzz(15)}`)
+console.log(`${fizzBuzz(100)}`)
