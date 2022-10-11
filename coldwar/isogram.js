@@ -25,6 +25,6 @@ function isIsogram(str) {
   }
 console.log(isIsogram("Dermatoglyphics"));//true
 console.log(isIsogram("abA")); //false
-console.log(isIsogram("")); //false
+console.log(isIsogram("")); //true
 
 
