@@ -1,0 +1,60 @@
+ devise a paln for solving problems
+
+ master common problem sloving patterns 
+
+      /  problem solving \
+
+ 1. understand the problem 
+
+/ask self or interviewer or when build you own thing/
+1.can I restate the problem back in my own word?
+
+2.what are the inputs that go into the problem?
+
+3.what are the outputs that should come from the solution to the problem?
+
+4.Can the outputs be determined from the inputs? In other words, do I have 
+enough information to solve the problem? (You may not be able to answer this 
+question until you set about solving the problem. That's okay; it's still worth 
+considering the question at this early stage.)
+
+5.How should I label the important pieces of data that are a part of the problem?
+ 
+ 2. explore the concrete examples
+come up with ex to help understand the problem!
+1.start with simple examples with input and output!
+2.progress to more complex examples!
+3.explore examples with empty inputs
+4.explore examples with invalid inputs
+
+ 3. break it down
+1.write out the steps you need to take to slove the problem. so, pesudo code.
+
+
+ 4. solve/simplify
+ 1.find the core fifficulty in what you're trying to do!
+ 2.temporarily ignore that difficulty
+ 3.write a simplified solution
+ 4.then incorporate that difficulty back in.
+
+
+ 5. look back and refactor
+
+ REFACTORING QUESTIONS
+Can you check the result?
+Can you derive the result differently?
+Can you understand it at a glance?
+Can you use the result or method for some other problem?
+Can you improve the performance of your solution?
+Can you think of other ways to refactor?
+How have other people solved this problem?
+
+
+problem sloving patterens 
+
+1. devise a plan for solving problems: last section shown above and uebs.js file!
+
+2. master common problem sloving patterns
+
+
+# freq counter o(n^2)
