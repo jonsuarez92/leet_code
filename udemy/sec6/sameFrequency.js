@@ -50,6 +50,7 @@ function sameFrequencys(num1, num2) {
     let countNum2 = {};
 
     for (let i = 0; i < strNum1.length; i++) {
+        //below code is saying there one in there or 0
         countNum1[strNum1[i]] = (countNum1[strNum1[i]] || 0) + 1
         console.log('this is count1 key vaule pair:', countNum1);
 
@@ -59,7 +60,9 @@ function sameFrequencys(num1, num2) {
         countNum2[strNum2[j]] = (countNum2[strNum2[j]] || 0) + 1
         console.log('this is count2 key vaule pair:', countNum2);
     }
-
+    /* for...in loops iterate over the keys of an object!!!,
+    for...in loop is used to iterate over the keys of the 
+    countNum1 object:*/
     for (let key in countNum1) {
         if (countNum1[key] !== countNum2[key]) return false;
         console.log('this is the key:', key)
