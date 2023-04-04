@@ -16,15 +16,20 @@ const areThereDuplicates = (...args) => {
             console.log('Duplicate found:', val);
             return true;
         }
-        seen[val] = true;
-        console.log('Updated seen:', seen);
+        else {
+            //used to check whether val already exists as a property 
+            //in the seen object on line 22.
+            seen[val] = 1;
+            console.log('Updated seen:', seen);
+        }
     }
     console.log('No duplicates found');
     return false;
 }
+//O(n)
 
 console.log(areThereDuplicates(1, 2, 3))// false
-console.log(areThereDuplicates(1, 2, 2)) // true 
+console.log(areThereDuplicates(1, 2, 2)) // true
 console.log(areThereDuplicates('a', 'b', 'c', 'a'))// true
 
 
